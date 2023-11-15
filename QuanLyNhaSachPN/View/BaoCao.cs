@@ -24,9 +24,16 @@ namespace QuanLyNhaSachPN
             dgvThongKe.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
         }
 
+
+        private void ResetData()
+        {
+            DataSet dataset = new DataSet();
+            dgvThongKe.DataSource = dataset;
+        }
+
         private void btnTao_Click(object sender, EventArgs e)
         {
-/*            if (nmrNam.Value == 0)
+            /*            if (nmrNam.Value == 0)
             {
                 MessageBox.Show("Vui lòng nhập năm cần lập thống kê!");
             }
@@ -54,13 +61,8 @@ namespace QuanLyNhaSachPN
                     }
                 }
             }*/
+        }
 
-        }
-        private void ResetData()
-        {
-            DataSet dataset = new DataSet();
-            dgvThongKe.DataSource = dataset;
-        }
         private void btnLamMoi_Click(object sender, EventArgs e)
         {
             nmrThang.Value = 0;

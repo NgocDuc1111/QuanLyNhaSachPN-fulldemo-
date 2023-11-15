@@ -26,7 +26,7 @@ namespace QuanLyNhaSachPN.View
             activeForm = childForm;
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
-            childForm.Dock = DockStyle.Fill;
+            /*childForm.Dock = DockStyle.Fill;*/
             panelChildForm.Controls.Add(childForm);
             panelChildForm.Tag = childForm;
             childForm.BringToFront();

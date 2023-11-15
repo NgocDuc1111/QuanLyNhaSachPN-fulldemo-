@@ -225,5 +225,23 @@
   <ItemGroup>
     <None Include="Resources\Custom-Icon-Design-Flatastic-4-Male-user-remove.512.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qlnv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qlbh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qlk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qlncc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inside-logout-icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

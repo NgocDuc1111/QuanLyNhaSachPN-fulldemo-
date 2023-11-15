@@ -58,7 +58,7 @@ namespace QuanLyNhaSachPN
             DataSet ds = kn.LayDuLieu(checkMANV);
             if (ds.Tables[0].Rows.Count == 0)
             {
-                    string query = string.Format("insert into NHANVIEN values(N'{0}',N'{1}',N'{2}',N'{3}',N'{4}',N'{5}')"
+                    string query = string.Format("insert into NHANVIEN() values(N'{0}',N'{1}',N'{2}',N'{3}',N'{4}',N'{5}')"
                     , txtManv.Text, txtTennv.Text, dtpNgSinh.Value.ToString("yyyy/MM/dd"),gioitinh,txtDiachi.Text,txtSDT.Text);
                     bool result = kn.ThucThi(query);
                     if (result)
